@@ -1,0 +1,274 @@
+div {
+  color: white;
+}
+
+body{
+  overflow-y: scroll;
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+  background-color: #d3d3d3;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+.wrapper{
+  width:100vw;
+  text-align: center;
+  background-image: url(../image/explain_2_large.png);
+  background-repeat: no-repeat;
+  margin: 100px auto 50px auto;
+
+}
+
+.odd {
+  background-color: #000;
+}
+.even {
+  background-color: #000;
+}
+
+.p1{
+  background-image: url(../image/p1_large.png);
+}
+
+.p2{
+  background-image: url(../image/p2_large.png);
+}
+
+
+
+.p3{
+  background-image: url(../image/p3_large.png);
+}
+
+.p3 iframe{
+  width: 843px;
+  height:502px;
+  margin-top: 47px;
+}
+
+.p4{
+  background-image: url(../image/p4_large.png);
+}
+
+.p4 iframe{
+  width:843px;
+  height:480px;
+
+}
+
+.p5{
+  background-image: url(../image/p5_large.png);
+}
+
+.p6{
+  background-image: url(../image/p6_large.png);
+}
+
+.p7{
+  background-image: url(../image/p7_large.png);
+}
+
+.p8{
+  background-image: url(../image/p8_large.png);
+}
+
+
+.p9{
+  background-image: url(../image/p9_large.png);
+}
+
+
+.p10{
+  background-image: url(../image/p10_large.png);
+}
+
+.p10 iframe{
+  width: 843px;
+  height:502px;
+}
+
+.p11{
+  background-image: url(../image/p11_large.png);
+}
+
+.p12{
+  background-image: url(../image/p12_large.png);
+}
+
+
+
+
+
+.p13{
+  background-image: url(../image/p13_large.png);
+}
+
+
+
+
+
+.p14{
+  background-image: url(../image/p14_large.png);
+}
+
+.p14 iframe{
+    float: left;
+    margin: 25px 45px;
+    width: 410px;
+    height:285px;
+}
+
+.p15{
+  background-image: url(../image/p15_large.png);
+}
+.p15 iframe, .p16 iframe, .p17 iframe {
+  width:320px;
+  height: 245px;
+}
+
+.p16{
+  background-image: url(../image/p16_large.png);
+}
+
+
+.p17{
+  background-image: url(../image/p17_large.png);
+}
+
+.p18{
+  background-image: url(../image/p18_large.png);
+}
+
+.p18 iframe{
+  width: 840px;
+  height: 440px;
+}
+
+
+.p19{
+  background-image: url(../image/p19_large.png);
+}
+
+.p20{
+  background-image: url(../image/p20_large.png);
+}
+
+.p20 iframe{
+  width: 843px;
+  height:450px;
+}
+
+
+.p21{
+  background-image: url(../image/p21_large.png);
+}
+
+.p22{
+  background-image: url(../image/p22_large.png);
+}
+
+.p23{
+  background-image: url(../image/p23_large.png);
+}
+
+.p24{
+  background-image: url(../image/p24_large.png);
+}
+
+.p25{
+  background-image: url(../image/p25_large.png);
+}
+
+.p26{
+  background-image: url(../image/p26_large.png);
+}
+
+.p27{
+  background-image: url(../image/p27_large.png);
+}
+
+.p28{
+  background-image: url(../image/p28_large.png);
+}
+
+.p29{
+  background-image: url(../image/p29_large.png);
+}
+
+.p30{
+  background-image: url(../image/p30_large.png);
+}
+
+
+.index{
+  font-family:"ＭＳ 明朝" ;
+}
+
+.index table{
+  text-align: left;
+padding: 40px;
+}
+
+.index th{
+  font-size:35px;
+}
+
+.index .cat td{
+  font-size: 25px;
+  padding-left: 0;
+  padding-top: 17px;
+}
+
+.index td{
+  font-size: 18px;
+  padding: 5px 8px 5px 40px;
+}
+
+.ju {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.ju::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: red;
+  transition: all 0.3s ease 0s;
+}
+.ju:hover {
+  cursor: pointer;
+}
+.ju:hover::after {
+  width: 100%;
+}
+
+.sm_mov{
+}
+
+.sm_mov table{
+margin: 35px auto 0;
+}
+
+.sm_mov tr{
+
+}
+
+.sm_mov td{
+padding: 0 40px;
+}
+
+
+#flipbook {
+  width: 1686px;
+  height: 596px;
+  margin:auto;
+}
