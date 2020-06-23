@@ -114,25 +114,20 @@ body::-webkit-scrollbar{
 }
 
 .p14 iframe{
-    float: left;
-    margin: 20px 35px;
-    width: 315px;
-    height:220px;
+  width:630px;
+  height:350px;
 }
+
+
 
 .p15{
   background-image: url(../image/p15_med.png);
 }
 
-.p17 iframe, .p15 iframe, .p16 iframe {
-  width:240px;
-  height: 175px;
-}
 
 .p16{
   background-image: url(../image/p16_med.png);
 }
-
 
 
 .p17{
@@ -144,22 +139,26 @@ body::-webkit-scrollbar{
 }
 
 .p18 iframe{
-  width: 630px;
-  height:335px;
+    float: left;
+    margin: 20px 35px;
+    width: 315px;
+    height:220px;
 }
 
 .p19{
   background-image: url(../image/p19_med.png);
 }
 
+.p19 iframe, .p20 iframe, .p21 iframe {
+  width:240px;
+  height: 175px;
+}
+
 .p20{
   background-image: url(../image/p20_med.png);
 }
 
-.p20 iframe{
-  width:632px;
-  height:350px;
-}
+
 
 .p21{
   background-image: url(../image/p21_med.png);
@@ -167,6 +166,11 @@ body::-webkit-scrollbar{
 
 .p22{
   background-image: url(../image/p22_med.png);
+}
+
+.p22 iframe{
+  width: 630px;
+  height:335px;
 }
 
 .p23{
@@ -177,6 +181,10 @@ body::-webkit-scrollbar{
   background-image: url(../image/p24_med.png);
 }
 
+.p24 iframe{
+  width:632px;
+  height:350px;
+}
 
 .p25{
   background-image: url(../image/p25_med.png);
@@ -202,28 +210,36 @@ body::-webkit-scrollbar{
   background-image: url(../image/p30_med.png);
 }
 
+.p31{
+  background-image: url(../image/p31_med.png);
+}
+
+.p32{
+  background-image: url(../image/p32_med.png);
+}
+
 .index{
   font-family:"ＭＳ 明朝" ;
 }
 
 .index table{
   text-align: left;
-padding: 20px 30px;;
+padding: 15px 30px;;
 }
 
 .index th{
-  font-size:35px;
+  font-size:30px;
 }
 
 .index .cat td{
-  font-size: 20px;
+  font-size: 18px;
   padding-left: 0;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .index td{
   font-size: 14px;
-      padding: 6px 6px 6px 30px;
+      padding: 4px 6px 4px 30px;
 }
 
 .ju {

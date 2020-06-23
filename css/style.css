@@ -117,19 +117,14 @@ body::-webkit-scrollbar{
 }
 
 .p14 iframe{
-    float: left;
-    margin: 25px 45px;
-    width: 410px;
-    height:285px;
+  width: 843px;
+  height:502px;
 }
 
 .p15{
   background-image: url(../image/p15_large.png);
 }
-.p15 iframe, .p16 iframe, .p17 iframe {
-  width:320px;
-  height: 245px;
-}
+
 
 .p16{
   background-image: url(../image/p16_large.png);
@@ -145,8 +140,10 @@ body::-webkit-scrollbar{
 }
 
 .p18 iframe{
-  width: 840px;
-  height: 440px;
+    float: left;
+    margin: 25px 45px;
+    width: 410px;
+    height:285px;
 }
 
 
@@ -154,13 +151,13 @@ body::-webkit-scrollbar{
   background-image: url(../image/p19_large.png);
 }
 
-.p20{
-  background-image: url(../image/p20_large.png);
+.p19 iframe, .p20 iframe, .p21 iframe {
+  width:320px;
+  height: 245px;
 }
 
-.p20 iframe{
-  width: 843px;
-  height:450px;
+.p20{
+  background-image: url(../image/p20_large.png);
 }
 
 
@@ -172,12 +169,22 @@ body::-webkit-scrollbar{
   background-image: url(../image/p22_large.png);
 }
 
+.p22 iframe{
+  width: 840px;
+  height: 440px;
+}
+
 .p23{
   background-image: url(../image/p23_large.png);
 }
 
 .p24{
   background-image: url(../image/p24_large.png);
+}
+
+.p24 iframe{
+  width: 843px;
+  height:450px;
 }
 
 .p25{
@@ -203,6 +210,15 @@ body::-webkit-scrollbar{
 .p30{
   background-image: url(../image/p30_large.png);
 }
+
+.p31{
+  background-image: url(../image/p31_large.png);
+}
+
+.p32{
+  background-image: url(../image/p32_large.png);
+}
+
 
 
 .index{
